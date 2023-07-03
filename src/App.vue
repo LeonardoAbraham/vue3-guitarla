@@ -13,7 +13,9 @@
         guitarras.value = db;
     })
 
-
+    const agregarCarrito = () => {
+        console.log("Agregando...")
+    }
 
 </script>
 
@@ -110,6 +112,7 @@
             <Guitarra 
                 v-for="guitarra in guitarras"
                 :guitarra="guitarra"
+                @agregar-carrito="agregarCarrito"
             />
         </div>
     </main>
