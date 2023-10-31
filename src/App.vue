@@ -13,8 +13,8 @@
         guitarras.value = db;
     })
 
-    const agregarCarrito = () => {
-        console.log("Agregando...")
+    const agregarCarrito = (guitarra) => {
+        console.log(guitarra)
     }
 
 </script>
