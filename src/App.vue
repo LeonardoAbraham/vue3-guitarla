@@ -8,13 +8,15 @@
         guitarras: db
     }) */
     const guitarras = ref([])
+    const carrito = ref([])
 
     onMounted(()=> {
         guitarras.value = db;
     })
 
     const agregarCarrito = (guitarra) => {
-        console.log(guitarra)
+        guitarra.cantidad = 1;
+        carrito.value.push(guitarra)
     }
 
 </script>
