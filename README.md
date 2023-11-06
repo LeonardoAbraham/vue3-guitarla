@@ -1,7 +1,19 @@
-# Vue 3 + Vite
+# Proyecto - GuitarLA - Vue.js
+Realizado por: Leonardo Abraham Alonzo Martinez
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Curso- Vue - Vue.js 3 - La Guía Completa - Composition Pinia MEVN 10 Apps - Juan Pablo De la torre Valdez
 
-## Recommended IDE Setup
+## Descripción
+Con este proyecto se pretende estudiar el funcionamiento del framework Vue.js 3, en este proyecto se estudia, crear componentes, el uso de props, el uso de emits, el uso de LocalStorage, el uso de computed, el uso de watch, el uso de directivas v-if, v-else, v-for
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Como ejecutar el proyecto
+```
+npm install
+```
+```
+npm run dev
+```
+
+## Imagenes del proyecto
+![Image text](https://github.com/LeonardoAbraham/vue3-guitarla/blob/main/public/Guitarla-vue3.png)
